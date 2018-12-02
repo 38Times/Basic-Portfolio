@@ -1,19 +1,4 @@
-/*
-================================================
-================================================
 
-    Start of main topbar container content.
-
-================================================
-================================================
-
-***    ***    ***              ***    ***    ***
-
-================================================
-	 This contains the top bar with a white
-            background width of 100%.
-================================================
-*/
 .topbar{
 	background-color: white;
 	width:100%;
@@ -23,12 +8,7 @@
 	clear:both;
 }
 
-/*
-================================================
-     Container of the topbar with a center
-				 width of 960px.
-================================================
-*/
+
 .top-line{
 	border-width: 2px;
 	border-color: #dddddd;
@@ -39,11 +19,7 @@
 	z-index: 9000;
 }
 
-/*
-================================================
-	   Font changes towards all name tags.
-================================================
-*/
+
 .name{
 	background: #4aaaa5;
 	text-shadow: 1px 1px rgb(62, 63, 64);
@@ -55,11 +31,7 @@
 	padding: 28px 20px 27px 20px;
 }
 
-/*
-================================================
-Adjustment towards about/portfolio/contact text.
-================================================
-*/
+
 .about-tab, .portfolio-tab, .contact-tab{
 	text-decoration: none;
 	padding: 33px 10px 32px 10px;
@@ -78,11 +50,7 @@ Adjustment towards about/portfolio/contact text.
     border-top:3px solid #3ffce0;
 }
 
-/*
-================================================
-	    Border under the topbar content.
-================================================
-*/
+
 .topborderbar{
 	background: #666666;
 	width:100%;
@@ -91,32 +59,7 @@ Adjustment towards about/portfolio/contact text.
 	clear:both;
 }
 
-/*
-================================================
-================================================
 
-	 End of main topbar container content.
-
-================================================
-================================================
-
-***    ***    ***              ***    ***    ***
-
-================================================
-================================================
-
-	 Start of main midbar container content.
-
-================================================
-================================================
-
-***    ***    ***              ***    ***    ***
-
-================================================
- Contains a none-repeat image background within
-			   the midbar section.
-================================================
-*/
 .midbar{
 	background-image: url(../images/City-Skyline-Wallpaper-21-2560x1600.jpg);
 	background-repeat: no-repeat;
@@ -127,22 +70,13 @@ Adjustment towards about/portfolio/contact text.
 	clear:both;
 }
 
-/*
-================================================
-   Mini container for midbar with all content
-         centered and adjusted width.
-================================================
-*/
+
 .container{
 	width:960px;
 	margin: auto;
 }
 
-/*
-================================================
-			About-me-box container.
-================================================
-*/
+
 
 .about-me-box{
 	background: white;
@@ -170,11 +104,7 @@ Adjustment towards about/portfolio/contact text.
 	margin: 20px 0 5px;
 }
 
-/*
-================================================
-Contains a adjusted profile pic with transition.
-================================================
-*/
+
 .profile-pic{
 	width: 240px;
 	height: 200px;
@@ -188,11 +118,7 @@ Contains a adjusted profile pic with transition.
 	transition: all 1s ease;
 }
 
-/*
-================================================
-  Provides a rotation of 360 deg when hovered.
-================================================
-*/
+
 .profile-pic:hover {
   border-radius: 50%;
 	-webkit-transform: rotate(360deg);
@@ -206,17 +132,7 @@ p{
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-/*
-================================================
-		 End of about-me-box container.
-================================================
 
-***    ***    ***              ***    ***    ***
-
-================================================
-		 Connect with Me box container.
-================================================
-*/
 .connect-box{
 	float:right;
 	width:20%;
@@ -238,12 +154,7 @@ p{
 	font-weight: bold;
 }
 
-/*
-================================================
-    Adjusted images for Github/Linked/Twitter
-             along with transition.
-================================================
-*/
+
 
 .connect-img-box{
 	width: 100%;
@@ -265,9 +176,7 @@ p{
 	width: 50px;
 	height: 50px;
 	position: relative;
-	/*top: 10px;*/
-	/*left: 20px;*/
-	/*margin: auto;*/
+	
 	-webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -275,11 +184,7 @@ p{
     transition: all 0.5s ease;
 }
 
-/*
-================================================
-  Provides a rotation of 360 deg when hovered.
-================================================
-*/
+
 .connect-images:hover {
 	-webkit-transform: rotate(360deg);
 	-moz-transform: rotate(360deg);
@@ -288,22 +193,13 @@ p{
 	transform: rotate(360deg);
 }
 
-/*
-================================================
-	 Width adjustment for contact textarea.
-================================================
-*/
+
 .textarea980{
 	 width: 100%;
 	 height: 50%;
 }
 
-/*
-================================================
-	  Submit button for Contant Page with
-	            cursor changer.
-================================================
-*/
+
 .submit-button{
 	background-color: #4aaaa5;
     border: none;
@@ -316,17 +212,7 @@ p{
     cursor: pointer;
 }
 
-/*
-================================================
-		 End of Connect with Me container.
-================================================
 
-***    ***    ***              ***    ***    ***
-
-================================================
-			Portfolio box container.
-================================================
-*/
 .portfolio-box{
 	background: white;
 	width: 65%;
@@ -359,12 +245,7 @@ p{
 	height: 150px;
 }
 
-/*
-================================================
-		 Adjusted portfolio images with
-			placement and transition.
-================================================
-*/
+
 .img1, .img3, .img5{
 	position: relative;
 	float: left;
@@ -433,11 +314,7 @@ p{
 	position: relative;
 }
 
-/*
-================================================
-	Content tags within the portoflio images.
-================================================
-*/
+
 
 .portfolio-p{
 	position: absolute;
@@ -494,48 +371,12 @@ p{
 	opacity: .75;
 }
 
-/*
-================================================
-	Decrease portfolio brightness of image
-	              upon hover
-================================================
-*/
+
 .img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover{
   -webkit-filter: brightness(85%);
 }
 
-/*
-================================================
-        End of Portfolio box container.
-================================================
 
-***    ***    ***              ***    ***    ***
-
-================================================
-================================================
-
-		  End of main midbar content.
-
-================================================
-================================================
-
-***    ***    ***              ***    ***    ***
-
-================================================
-================================================
-
-		 Beginning of copyright content.
-
-================================================
-================================================
-
-***    ***    ***              ***    ***    ***
-
-================================================
-  Container of the copyrightbar background and
-      content coloring with a width of 100%.
-================================================
-*/
 .copyrightbar{
 	background-color: #666666;
 	width:100%;
@@ -545,11 +386,7 @@ p{
 	clear:both;
 }
 
-/*
-================================================
-		Inner content of copyrightbar.
-================================================
-*/
+
 .copyright{
 	width: 960px;
 	margin: auto;
@@ -557,13 +394,3 @@ p{
 	color: white;
 	padding: 17px 0px 17px 0px;
 }
-
-/*
-================================================
-================================================
-
-		    End of copyright content.
-
-================================================
-================================================
-*/
