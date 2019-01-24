@@ -283,14 +283,14 @@
 
 	.about-tab{
 		width: 27%;
-		background: blue;
+		background: #4aaaa5;
 		text-align: center;
 		float:right;
 		position: static;
 	}
 	.contact-tab{
 		width: 27%;
-		background: red;
+		background: #4aaaa5;
 		text-align: center;
 		float:right;
 		position: static;
@@ -298,7 +298,7 @@
 
 	.portfolio-tab{
 		width: 33%;
-		background: green;
+		background: #4aaaa5;
 		text-align: center;
 		float:right;
 		position: static;
